@@ -1,105 +1,47 @@
-```markdown
-# 🗂 Data Bias
+<h1>🗂 Data Bias</h1>
 
-Data bias refers to hallucinations that arise from biases present in the training data itself. These biases encourage Vision-Language Models to generate statistically plausible but visually unsupported content.
+<p>
+Data bias refers to hallucinations caused by biased or incomplete training data, annotations, or data distributions. These biases make VLMs generate content that is statistically likely but not visually grounded.
+</p>
 
----
+<hr>
 
-## 📌 Taxonomy
+<h2>📌 Taxonomy</h2>
 
-```
+<div style="border:1px solid #d0d7de; border-radius:10px; padding:16px; background:#f6f8fa; margin-bottom:16px;">
+  <h3>📦 Dataset Bias</h3>
+  <ul>
+    <li><a href="https://arxiv.org/abs/2302.03671">Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training</a></li>
+    <li><a href="https://arxiv.org/abs/2305.10355">Evaluating Object Hallucination in Large Vision-Language Models (POPE)</a></li>
+    <li><a href="https://arxiv.org/abs/2406.12718">Multi-Object Hallucination in Vision Language Models</a></li>
+    <li><a href="https://arxiv.org/abs/2310.04972">HallE-Switch: Controlling Object Hallucination in Large Vision Language Models</a></li>
+  </ul>
+</div>
 
-Data Bias
-│
-├── Dataset Bias
-├── Annotation Bias
-├── Distribution Bias
-└── Counterfactual Data Bias
+<div style="border:1px solid #d0d7de; border-radius:10px; padding:16px; background:#fff8e6; margin-bottom:16px;">
+  <h3>🏷 Annotation Bias</h3>
+  <ul>
+    <li><a href="https://arxiv.org/abs/1809.02156">Object Hallucination in Image Captioning</a></li>
+    <li><a href="https://arxiv.org/abs/2308.06394">Detecting and Preventing Hallucinations in Large Vision Language Models</a></li>
+  </ul>
+</div>
 
-```
+<div style="border:1px solid #d0d7de; border-radius:10px; padding:16px; background:#eef6ff; margin-bottom:16px;">
+  <h3>📊 Distribution Bias</h3>
+  <ul>
+    <li><a href="https://arxiv.org/abs/2305.10355">POPE: Evaluating Object Hallucination in Large Vision-Language Models</a></li>
+    <li><a href="https://arxiv.org/abs/2310.00754">LURE: Analyzing and Mitigating Object Hallucination in Large Vision-Language Models</a></li>
+    <li><a href="https://arxiv.org/abs/2310.14566">HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion</a></li>
+    <li><a href="https://arxiv.org/abs/2311.07397">AMBER: An LLM-free Multi-dimensional Benchmark for MLLM Hallucination Evaluation</a></li>
+  </ul>
+</div>
 
----
-
-# Dataset Bias
-
-Biases introduced by the composition and statistics of large-scale pretraining datasets.
-
-- **Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training**
-  - https://arxiv.org/abs/2302.03671
-
-- **Evaluating Object Hallucination in Large Vision-Language Models (POPE)**
-  - https://arxiv.org/abs/2305.10355
-
-- **Multi-Object Hallucination in Vision Language Models**
-  - https://arxiv.org/abs/2406.12718
-
-- **HallE-Switch: Controlling Object Hallucination in Large Vision Language Models**
-  - https://arxiv.org/abs/2310.04972
-
----
-
-# Annotation Bias
-
-Hallucinations caused by incomplete or ambiguous image annotations.
-
-- **Object Hallucination in Image Captioning**
-  - https://arxiv.org/abs/1809.02156
-
-- **CHAIR: Caption Hallucination Assessment with Image Relevance**
-  - https://arxiv.org/abs/1809.02156
-
-- **Detecting and Preventing Hallucinations in Large Vision Language Models**
-  - https://arxiv.org/abs/2308.06394
-
----
-
-# Distribution Bias
-
-Biases originating from long-tail distributions and object co-occurrence statistics.
-
-- **POPE: Evaluating Object Hallucination in Large Vision-Language Models**
-  - https://arxiv.org/abs/2305.10355
-
-- **LURE: Analyzing and Mitigating Object Hallucination in Large Vision-Language Models**
-  - https://arxiv.org/abs/2310.00754
-
-- **HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models**
-  - https://arxiv.org/abs/2310.14566
-
-- **AMBER: An LLM-free Multi-dimensional Benchmark for MLLM Hallucination Evaluation**
-  - https://arxiv.org/abs/2311.07397
-
----
-
-# Counterfactual Data Bias
-
-Analyzing hallucinations by modifying or intervening on the original data distribution.
-
-- **Causal-HalBench: Uncovering LVLMs Object Hallucinations Through Causal Intervention**
-  - https://arxiv.org/abs/2502.09739
-
-- **Treble Counterfactual VLMs: A Causal Approach to Hallucination**
-  - https://arxiv.org/abs/2503.19872
-
-- **See or Guess: Counterfactually Regularized Image Captioning**
-  - https://arxiv.org/abs/2406.12024
-
-- **Obliviate: Analyzing and Mitigating Object Hallucination in Large Vision-Language Models from a Training Bias Perspective**
-  - https://arxiv.org/abs/2508.04567
-
----
-
-# 📖 Survey Papers
-
-- **A Survey on Hallucination in Large Vision-Language Models**
-  - https://arxiv.org/abs/2402.00253
-
-- **A Survey of Hallucination in Large Visual Language Models**
-  - https://arxiv.org/abs/2410.15359
-
----
-
-## 🚧 TODO
-
--
-```
+<div style="border:1px solid #d0d7de; border-radius:10px; padding:16px; background:#f0fff4; margin-bottom:16px;">
+  <h3>🔬 Counterfactual Data Bias</h3>
+  <ul>
+    <li><a href="https://arxiv.org/abs/2502.09739">Causal-HalBench: Uncovering LVLMs Object Hallucinations Through Causal Intervention</a></li>
+    <li><a href="https://arxiv.org/abs/2503.19872">Treble Counterfactual VLMs: A Causal Approach to Hallucination</a></li>
+    <li><a href="https://arxiv.org/abs/2406.12024">See or Guess: Counterfactually Regularized Image Captioning</a></li>
+    <li><a href="https://arxiv.org/abs/2508.04567">Obliviate: Analyzing and Mitigating Object Hallucination from a Training Bias Perspective</a></li>
+  </ul>
+</div>
