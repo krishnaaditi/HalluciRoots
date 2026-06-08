@@ -31,60 +31,62 @@ This repository is built around one central question:
 > **Where do hallucinations in Vision-Language Models come from?**
 ---
 ## Taxonomy
+# 🌳 Taxonomy
 
+```text
 Hallucination in Vision-Language Models
 │
 ├── Data-Level Causes
-│ ├── Dataset Bias
-│ ├── Annotation Bias
-│ ├── Distribution Bias
-│ └── Counterfactual Data Bias
+│   ├── Dataset Bias
+│   ├── Annotation Bias
+│   ├── Distribution Bias
+│   └── Counterfactual Data Bias
 │
 ├── Language Priors
-│ ├── Object Co-occurrence
-│ ├── Frequency Bias
-│ └── Statistical Priors
+│   ├── Object Co-occurrence
+│   ├── Frequency Bias
+│   └── Statistical Priors
 │
 ├── Spurious Correlations
-│ ├── Object-Background Correlation
-│ ├── Shortcut Learning
-│ └── Contextual Bias
+│   ├── Object-Background Correlation
+│   ├── Shortcut Learning
+│   └── Contextual Bias
 │
 ├── Representation-Level Causes
-│ ├── Visual Feature Instability
-│ ├── Internal Representation Drift
-│ └── Latent Space Misalignment
+│   ├── Visual Feature Instability
+│   ├── Internal Representation Drift
+│   └── Latent Space Misalignment
 │
 ├── Cross-modal Alignment
-│ ├── Feature Misalignment
-│ ├── Semantic Misalignment
-│ └── Preference Misalignment
+│   ├── Feature Misalignment
+│   ├── Semantic Misalignment
+│   └── Preference Misalignment
 │
 ├── Attention-Level Causes
-│ ├── Attention Degradation
-│ ├── Over-trust in Summary Tokens
-│ └── Weak Image-token Attention
+│   ├── Attention Degradation
+│   ├── Over-trust in Summary Tokens
+│   └── Weak Image-token Attention
 │
 ├── Grounding-Level Causes
-│ ├── Weak Object Grounding
-│ ├── Attribute Grounding Failure
-│ └── Relation Grounding Failure
+│   ├── Weak Object Grounding
+│   ├── Attribute Grounding Failure
+│   └── Relation Grounding Failure
 │
 ├── Decoding-Level Causes
-│ ├── Autoregressive Error Propagation
-│ ├── Visual Information Fading
-│ └── Language-prior Dominance
+│   ├── Autoregressive Error Propagation
+│   ├── Visual Information Fading
+│   └── Language-prior Dominance
 │
 ├── Uncertainty
-│ ├── Epistemic Uncertainty
-│ ├── Aleatoric Uncertainty
-│ └── Confidence Calibration
+│   ├── Epistemic Uncertainty
+│   ├── Aleatoric Uncertainty
+│   └── Confidence Calibration
 │
 └── Causal Analysis
-├── Counterfactual Intervention
-├── Causal Dependency Discovery
-└── Mechanism Tracing
----
+    ├── Counterfactual Intervention
+    ├── Causal Dependency Discovery
+    └── Mechanism Tracing
+```
 ```markdown
 # 📚 Root Causes
 
