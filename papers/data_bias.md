@@ -11,10 +11,10 @@ Data bias refers to hallucinations caused by biased or incomplete training data,
 <div style="border:1px solid #d0d7de; border-radius:10px; padding:16px; background:#f6f8fa; margin-bottom:16px;">
   <h3>📦 Dataset Bias</h3>
   <ul>
-    <li><a href="https://arxiv.org/abs/2302.03671">Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training</a></li>
-    <li><a href="https://arxiv.org/abs/2305.10355">Evaluating Object Hallucination in Large Vision-Language Models (POPE)</a></li>
-    <li><a href="https://arxiv.org/abs/2406.12718">Multi-Object Hallucination in Vision Language Models</a></li>
-    <li><a href="https://arxiv.org/abs/2310.04972">HallE-Switch: Controlling Object Hallucination in Large Vision Language Models</a></li>
+    <li><a href="https://aclanthology.org/2023.eacl-main.156.pdf">Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training</a></li>
+    <li><a href="https://aclanthology.org/2023.emnlp-main.20.pdf">Evaluating Object Hallucination in Large Vision-Language Models (POPE)</a></li>
+    <li><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/4ea4a1ea4d9ff273688c8e92bd087112-Paper-Conference.pdf">Multi-Object Hallucination in Vision Language Models</a></li>
+    <li><a href="https://openreview.net/pdf?id=9Ebi1euQZQ">HallE-Switch: Controlling Object Hallucination in Large Vision Language Models</a></li>
   </ul>
 </div>
 
